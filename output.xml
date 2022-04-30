@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.3 (Python 3.7.5 on win32)" generated="20220429 07:52:47.582" rpa="false" schemaversion="2">
+<suite id="s1" name="Robot Interactive Console" source="c:\Users\10358736\.vscode\extensions\robocorp.robotframework-lsp-0.46.0\src\robotframework_ls\vendored\robotframework_interactive\robot_interactive_console.robot">
+<test id="s1-t1" name="Default Task/Test">
+<kw name="Interpreter Main Loop" library="MainLoop">
+<kw name="log ${vault}">
+<msg timestamp="20220429 07:53:56.734" level="FAIL">No keyword with name 'log ${vault}' found.</msg>
+<status status="FAIL" starttime="20220429 07:53:56.734" endtime="20220429 07:53:56.734"/>
+</kw>
+<kw name="Log" library="BuiltIn">
+<arg>${vault}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" starttime="20220429 07:54:23.638" endtime="20220429 07:54:23.639"/>
+</kw>
+<status status="PASS" starttime="20220429 07:52:47.614" endtime="20220429 07:55:09.328"/>
+</kw>
+<status status="PASS" starttime="20220429 07:52:47.614" endtime="20220429 07:55:09.328"/>
+</test>
+<status status="PASS" starttime="20220429 07:52:47.582" endtime="20220429 07:55:09.330"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Robot Interactive Console">Robot Interactive Console</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
