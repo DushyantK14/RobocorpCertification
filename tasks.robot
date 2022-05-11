@@ -101,3 +101,4 @@ Get Orders file
 Create final zip
     Archive Folder With Zip    ${CURDIR}${/}Receipts    ${OUTPUT_DIR}${/}Reciepts.zip
     #Should Contain    container    item
+    #Wait Until page
